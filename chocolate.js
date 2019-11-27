@@ -1,3 +1,5 @@
+// Birthday Chocolate HackerRank exercise
+
 // s = arreglo
 // d = day 
 // m = month
