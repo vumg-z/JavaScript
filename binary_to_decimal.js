@@ -25,23 +25,3 @@ const toDecimal = numBinary => {
 
 const toDecimal_ = num => num.toString(10);
 
-
-// metodo tres
-
-const toDecimal__ = (num) => {
-
-  if(typeof num == "number"){
-    num = num.toString()
-  }
-
-  const reducer = (acumulator, currentValue) => acumulator + currentValue;
-  const arr = num.split("");
-  let i = num.length;
-  const decimalArray = arr.map((num) => {
-    i--;
-    return num * Math.pow(2, i)
-  })
-  return decimalArray.reduce(reducer)
-}
-
-console.log(toDecimal__(11))
