@@ -1,0 +1,53 @@
+{
+  "comida": {
+    "hamburguesas": {
+      "hamburguesa de res": {
+        "precio": 200
+      },
+      "hamburguesa vegetariana": {
+        "precio": 150
+      },
+      "hamburguesa de pollo": {
+        "precio": 125
+      }
+    },
+    "carne_asada": {
+      "arrachera": {
+        "precio": 200
+      },
+      "pilonsillo": {
+        "precio": 235
+      },
+      "carnasa": {
+        "precio": 150
+      }
+    }
+  },
+  "bebidas": {
+    "refresco": {
+      "precio": 50
+    },
+    "cerveza": {
+      "precio": 70
+    },
+    "vino": {
+      "precio": 90
+    }
+  },
+  "botana": {
+    "churros": {
+      "precio": 50
+    },
+    "papas": {
+      "precio": 125
+    }
+  },
+  "desechables": {
+    "baratos": {
+      "precio": 50
+    },
+    "caros": {
+      "precio": 100
+    }
+  }
+}
