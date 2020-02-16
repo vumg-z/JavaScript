@@ -31,8 +31,3 @@ const minimumDistance = a => {
         return -1
     }
 }
-
-
-let test1 = [3,2,1,2,3]
-
-console.log(minimumDistance(test1))
