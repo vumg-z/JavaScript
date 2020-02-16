@@ -15,8 +15,6 @@ const minimumDistance = a => {
             if(firstPair != secondPair){
                 map.set(number, secondPair - firstPair)
                 exists = true;
-            }else{
-                map.set(number, 0)
             }
         }
 
@@ -24,9 +22,7 @@ const minimumDistance = a => {
 
     if(exists){
         let valuesArray = Array.from(map.values());
-        valuesArray.sort((a,b) => a-b)
-        let number = valuesArray.filter((num) => num > 0 )[0]
-        return number
+        return valuesArray.sort((a,b) => a-b)[0]
     }else{
         return -1
     }
