@@ -11,7 +11,7 @@ function isAnagram(firstString,secondString){
     return isAnagram;
 }
 
-console.log(isAnagram("desamparador","desparramado"));
+console.log(isAnagram("coronavirus","carnivorous"));
 
 /*
 
